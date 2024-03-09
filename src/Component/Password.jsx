@@ -83,7 +83,7 @@ function Password() {
     <label className='Password-length'>
     <span>
     Select Password length<b>(**8-50 characters**)</b> </span>
-    <input type='number'  onChange={rangeVal} value={range}/>
+    <input id="bot" type='number'  onChange={rangeVal} value={range}/>
     </label>
    
     
